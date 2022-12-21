@@ -2,14 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import cryptoImg from '../public/assets/projects/crypto.png'
+import netflixImg from '../public/assets/projects/netflix.png'
+import twitchImg from '../public/assets/projects/twitch.png'
+
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full animate-fade-in-down'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
@@ -23,24 +24,24 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Crypto App'
+            title='Portfolio webApp'
             backgroundImg={cryptoImg}
             projectUrl='/crypto'
-            tech='React JS'
+            tech='Next JS'
 
           />
           <ProjectItem
-            title='Netflix App'
+            title='Construction Management Portal'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
-            tech='React JS'
+            tech='MERN Stack'
 
           />
           <ProjectItem
-            title='Twitch UI'
+            title='Online Cosmetics Shop'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
-            tech='Next JS'
+            tech='PHP MYSQL'
 
           />
         </div>

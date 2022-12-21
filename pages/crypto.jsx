@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import cryptoImg from '../public/assets/projects/crypto.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -18,7 +18,7 @@ const crypto = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h3>Next JS / Tailwind CSS</h3>
         </div>
       </div>
 
@@ -27,15 +27,10 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+            I built this app to demonstrate my knowledge and expertise in technical
+            fields using Next JS. This app was built using Next JS and is
+            hosted on github. This application uses tailwind css for styling. GetIO form is 
+            used for mail sending.
           </p>
           <a
             href='https://github.com/fireclint/crypto-react-firebase'
@@ -69,18 +64,19 @@ const crypto = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Firebase
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              {/* <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Coin Gecko API
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Routes
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
+        <button classname='p-4 cursor-pointer'>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+          back
+        </Link></button>
       </div>
     </div>
   );

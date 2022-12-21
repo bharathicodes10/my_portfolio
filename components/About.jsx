@@ -5,31 +5,26 @@ import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 animate-fade-in-down'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
+          <h2 className='py-4'>Who Am I</h2>
+          <p className='py-2 text-black-600'>
+            I specialize in building full stack application using latest technologies. I’m
             passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+            more than one way to accomplish a task. Since I am a quick learner, I can pick up new 
+            tech stacks as needed. I believe that adaptability, the ability to learn quickly and choosing the right
+            approach to solve a problem are some of the essential skills of a developer.  I also believe that being 
+            a great developer is not using one specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+            I have built some web applications in the past few years.In my spare
+            time I practice problem solving on hackerrank,leetcode, and codechef. 
           </p>
+          <button className='p-5'> <a href='https://drive.google.com/file/d/1iJmJqJQJ1rennIYlmHmF9SDeoZIPXW2c/view?usp=share_link'>See my Resume</a></button>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.

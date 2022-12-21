@@ -10,8 +10,8 @@ import NavLogo from '../public/assets/navLogo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('red-200');
+  const [linkColor, setLinkColor] = useState('black');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -73,6 +73,9 @@ const Navbar = () => {
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#about'>About</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#codes'>CodeProfiles</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Skills</Link>
