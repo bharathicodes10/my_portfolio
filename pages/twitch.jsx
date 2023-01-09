@@ -27,7 +27,7 @@ const twitch = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          "The Lush Cosmetics " is an ecommerce web application for online cosmetics shop with an age wise filter.
+          The Lush Cosmetics is an ecommerce web application for online cosmetics shop with an age wise filter.
            This application has various other filters and payment is done by Paypal. Sales report is generated.
           </p>
           <a
